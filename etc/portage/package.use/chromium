@@ -1,0 +1,9 @@
+>=net-libs/nodejs-18.12.1 inspector
+# required by app-emulation/virt-manager-4.0.0::gentoo[-test,gtk]
+# required by app-emulation/virt-manager (argument)
+>=net-misc/spice-gtk-0.41 usbredir
+# required by app-emulation/libvirt-8.7.0-r1::gentoo[virt-network]
+# required by app-emulation/libvirt-glib-4.0.0::gentoo
+# required by app-emulation/virt-manager-4.0.0::gentoo[-test]
+# required by app-emulation/virt-manager (argument)
+>=net-dns/dnsmasq-2.86-r1 script
