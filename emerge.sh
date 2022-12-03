@@ -39,7 +39,6 @@ emerge \
   net-p2p/transmission \
   net-ftp/filezilla \
   net-p2p/bitcoin-qt \
-  media-video/obs-studio \
   app-containers/docker \
   app-containers/docker-cli
 

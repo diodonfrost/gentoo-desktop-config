@@ -1,0 +1,5 @@
+# required by media-sound/pulseaudio-daemon-16.1::gentoo[alsa-plugin,alsa]
+# required by media-libs/libpulse-16.1-r1::gentoo
+# required by media-video/obs-studio-28.1.2-r1::gentoo[pulseaudio]
+# required by media-video/obs-studio (argument)
+>=media-plugins/alsa-plugins-1.2.7.1 pulseaudio
