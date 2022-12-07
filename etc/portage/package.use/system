@@ -26,3 +26,10 @@
 # required by x11-libs/gtk+-2.24.33-r2::gentoo[cups]
 # required by x11-themes/gtk-engines-adwaita-3.28::gentoo
 >=sys-devel/llvm-15.0.5 abi_x86_32
+# circular dependencies:
+# (media-libs/libpulse-16.1-r1:0/0::gentoo, ebuild scheduled for merge) depends on
+#  (media-libs/libsndfile-1.1.0-r1:0/0::gentoo, ebuild scheduled for merge) (buildtime)
+#   (media-sound/mpg123-1.30.2:0/0::gentoo, ebuild scheduled for merge) (buildtime_slot_op)
+#    (media-sound/pulseaudio-16.1:0/0::gentoo, ebuild scheduled for merge) (buildtime)
+#     (media-libs/libpulse-16.1-r1:0/0::gentoo, ebuild scheduled for merge) (buildtime)
+>=media-libs/libsndfile-1.1.0-r1 minimal
