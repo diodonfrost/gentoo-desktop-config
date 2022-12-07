@@ -13,18 +13,17 @@ emerge \
   dev-util/strace \
   sys-apps/plocate \
   sys-apps/hwinfo \
-  sys-apps/lm-sensors
-
-emerge \
+  app-portage/eix \
+  sys-apps/lm-sensors \
   x11-misc/sddm \
   kde-apps/konsole \
   kde-plasma/plasma-meta \
   kde-plasma/sddm-kcm \
   kde-plasma/plasma-workspace \
   kde-plasma/discover \
-  kde-apps/dolphin
-
-emerge \
+  kde-apps/dolphin \
+  dev-libs/libinput \
+  x11-drivers/xf86-input-libinput \
   kde-apps/konsole \
   kde-apps/okular \
   kde-apps/spectacle \
@@ -42,9 +41,8 @@ emerge \
   app-containers/docker \
   app-containers/docker-cli
 
-emerge net-misc/dropbox
-
 systemctl enable NetworkManager
+systemctl enable sddm
 
 emerge x11-drivers/nvidia-drivers
 
@@ -60,3 +58,5 @@ emerge \
   net-misc/dropbox \
   net-im/discord-bin \
   media-sound/spotify
+
+useradd violet
