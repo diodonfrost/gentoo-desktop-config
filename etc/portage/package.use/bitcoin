@@ -1,3 +1,5 @@
 # required by net-p2p/bitcoin-qt-0.21.0::gentoo[wallet]
 # required by net-p2p/bitcoin-qt (argument)
 >=sys-libs/db-4.8.30-r6:4.8 cxx
+dev-libs/libsecp256k1 -asm
+

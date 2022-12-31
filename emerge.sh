@@ -15,7 +15,6 @@ emerge \
   sys-apps/hwinfo \
   app-portage/eix \
   sys-apps/lm-sensors \
-  x11-misc/sddm \
   kde-apps/konsole \
   kde-plasma/plasma-meta \
   kde-plasma/sddm-kcm \
@@ -23,7 +22,11 @@ emerge \
   kde-plasma/discover \
   kde-apps/dolphin \
   dev-libs/libinput \
+  x11-misc/sddm \
   x11-drivers/xf86-input-libinput \
+  x11-terms/xterm \
+  x11-base/xorg-server \
+  x11-base/xorg-drivers \
   kde-apps/konsole \
   kde-apps/okular \
   kde-apps/spectacle \
@@ -34,15 +37,25 @@ emerge \
   app-emulation/qemu \
   app-emulation/virt-manager \
   media-video/vlc \
-  www-client/chromium \
   net-p2p/transmission \
   net-ftp/filezilla \
   net-p2p/bitcoin-qt \
+  media-sound/pulseaudio \
+  net-misc/openssh \
+  net-vpn/tor \
+  sys-kernel/linux-firmware \
+  sys-apps/memtest86+ \
+  media-sound/alsa-utils \
+  media-sound/pavucontrol \
+  kde-apps/kate \
   app-containers/docker \
   app-containers/docker-cli
 
 systemctl enable NetworkManager
 systemctl enable sddm
+systemctl enable sshd
+systemctl enable docker
+systemctl enable libvirtd
 
 emerge x11-drivers/nvidia-drivers
 
@@ -60,3 +73,13 @@ emerge \
   media-sound/spotify
 
 useradd violet
+gpasswd -a larry wheel
+gpasswd -a larry video
+gpasswd -a larry audio
+gpasswd -a larry usb
+gpasswd -a larry kvm
+gpasswd -a larry qemu
+gpasswd -a larry docker
+gpasswd -a larry pcap
+
+emerge www-client/chromium

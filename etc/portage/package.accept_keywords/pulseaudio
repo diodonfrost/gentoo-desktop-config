@@ -1,0 +1,3 @@
+#media-sound/pulseaudio-daemon ~amd64
+#media-libs/alsa-lib ~amd64
+

@@ -29,3 +29,5 @@
 >=dev-libs/elfutils-0.187-r2 abi_x86_32
 >=app-arch/bzip2-1.0.8-r3 abi_x86_32
 sys-libs/ncurses -gpm
+>=x11-drivers/nvidia-drivers-525.60.13 abi_x86_32
+
