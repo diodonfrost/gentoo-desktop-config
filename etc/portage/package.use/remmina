@@ -1,0 +1,6 @@
+# required by dev-libs/libayatana-appindicator-0.5.92::gentoo
+# required by net-misc/remmina-1.4.29-r2::gentoo[appindicator]
+# required by net-misc/remmina (argument)
+>=dev-libs/libdbusmenu-16.04.0-r2 gtk3
+net-misc/remmina rdp vnc spice ssh gvnc
+

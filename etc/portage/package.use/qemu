@@ -1,0 +1,6 @@
+# required by app-crypt/swtpm-0.8.0::gentoo[gnutls]
+# required by app-crypt/swtpm (argument)
+>=net-libs/gnutls-3.7.8 pkcs11 tools
+app-emulation/qemu spice virgl opengl
+x11-drivers/xf86-video-qxl xspice
+

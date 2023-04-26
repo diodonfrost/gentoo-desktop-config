@@ -1,33 +1,176 @@
->=x11-libs/libX11-1.8.1 abi_x86_32
->=x11-libs/libXau-1.0.9-r1 abi_x86_32
+>=x11-drivers/nvidia-drivers-525.105.17 abi_x86_32
+# required by media-libs/mesa-22.3.7-r1::gentoo
+# required by virtual/opengl-7.0-r2::gentoo
+# required by games-util/steam-client-meta-0-r20221017::steam-overlay
+# required by games-util/steam-meta-0-r20220320::steam-overlay
+# required by games-util/steam-meta (argument)
+>=media-libs/libglvnd-1.6.0 abi_x86_32
+# required by x11-libs/libXxf86vm-1.1.5::gentoo
+# required by media-libs/mesa-22.3.7-r1::gentoo[X]
+# required by virtual/opengl-7.0-r2::gentoo
+# required by games-util/steam-client-meta-0-r20221017::steam-overlay
+# required by games-util/steam-meta-0-r20220320::steam-overlay
+# required by games-util/steam-meta (argument)
+>=x11-libs/libX11-1.8.4-r1 abi_x86_32
+# required by media-libs/mesa-22.3.7-r1::gentoo[X]
+# required by virtual/opengl-7.0-r2::gentoo
+# required by games-util/steam-client-meta-0-r20221017::steam-overlay
+# required by games-util/steam-meta-0-r20220320::steam-overlay
+# required by games-util/steam-meta (argument)
+>=x11-libs/libXext-1.3.5 abi_x86_32
+# required by media-libs/mesa-22.3.7-r1::gentoo[X]
+# required by virtual/opengl-7.0-r2::gentoo
+# required by games-util/steam-client-meta-0-r20221017::steam-overlay
+# required by games-util/steam-meta-0-r20220320::steam-overlay
+# required by games-util/steam-meta (argument)
 >=x11-libs/libxcb-1.15-r1 abi_x86_32
->=x11-libs/libXdmcp-1.1.3-r1 abi_x86_32
->=dev-libs/libbsd-0.11.6 abi_x86_32
->=app-crypt/libmd-1.0.4 abi_x86_32
+# required by x11-libs/libxcb-1.15-r1::gentoo
+# required by media-libs/mesa-22.3.7-r1::gentoo[X]
+# required by virtual/opengl-7.0-r2::gentoo
+# required by games-util/steam-client-meta-0-r20221017::steam-overlay
+# required by games-util/steam-meta-0-r20220320::steam-overlay
+# required by games-util/steam-meta (argument)
+>=x11-libs/libXau-1.0.11 abi_x86_32
+# required by x11-libs/libxcb-1.15-r1::gentoo
+# required by media-libs/mesa-22.3.7-r1::gentoo[X]
+# required by virtual/opengl-7.0-r2::gentoo
+# required by games-util/steam-client-meta-0-r20221017::steam-overlay
+# required by games-util/steam-meta-0-r20220320::steam-overlay
+# required by games-util/steam-meta (argument)
+>=x11-libs/libXdmcp-1.1.4-r2 abi_x86_32
+# required by games-util/steam-client-meta-0-r20221017::steam-overlay
+# required by games-util/steam-meta-0-r20220320::steam-overlay
+# required by games-util/steam-meta (argument)
 >=virtual/opengl-7.0-r2 abi_x86_32
->=media-libs/mesa-22.1.7 abi_x86_32
+# required by virtual/opengl-7.0-r2::gentoo
+# required by games-util/steam-client-meta-0-r20221017::steam-overlay
+# required by games-util/steam-meta-0-r20220320::steam-overlay
+# required by games-util/steam-meta (argument)
+>=media-libs/mesa-22.3.7-r1 abi_x86_32
+# required by media-libs/mesa-22.3.7-r1::gentoo
+# required by virtual/opengl-7.0-r2::gentoo
+# required by games-util/steam-client-meta-0-r20221017::steam-overlay
+# required by games-util/steam-meta-0-r20220320::steam-overlay
+# required by games-util/steam-meta (argument)
 >=dev-libs/expat-2.5.0 abi_x86_32
->=media-libs/libglvnd-1.4.0 abi_x86_32
+# required by sys-devel/llvm-15.0.7::gentoo
+# required by media-libs/mesa-22.3.7-r1::gentoo[-video_cards_radeon,-video_cards_r600,-opencl,llvm,-video_cards_radeonsi]
+# required by virtual/opengl-7.0-r2::gentoo
+# required by games-util/steam-client-meta-0-r20221017::steam-overlay
+# required by games-util/steam-meta-0-r20220320::steam-overlay
+# required by games-util/steam-meta (argument)
 >=sys-libs/zlib-1.2.13-r1 abi_x86_32
->=dev-libs/wayland-1.21.0 abi_x86_32
->=x11-libs/libdrm-2.4.112 abi_x86_32
->=x11-libs/libxshmfence-1.3-r2 abi_x86_32
->=x11-libs/libXext-1.3.4 abi_x86_32
->=x11-libs/libXxf86vm-1.1.4-r2 abi_x86_32
+# required by media-libs/mesa-22.3.7-r1::gentoo[lm-sensors]
+# required by virtual/opengl-7.0-r2::gentoo
+# required by games-util/steam-client-meta-0-r20221017::steam-overlay
+# required by games-util/steam-meta-0-r20220320::steam-overlay
+# required by games-util/steam-meta (argument)
+>=sys-apps/lm-sensors-3.6.0-r1 abi_x86_32
+# required by media-libs/mesa-22.3.7-r1::gentoo[vdpau]
+# required by virtual/opengl-7.0-r2::gentoo
+# required by games-util/steam-client-meta-0-r20221017::steam-overlay
+# required by games-util/steam-meta-0-r20220320::steam-overlay
+# required by games-util/steam-meta (argument)
+>=x11-libs/libvdpau-1.5 abi_x86_32
+# required by media-libs/mesa-22.3.7-r1::gentoo[wayland]
+# required by virtual/opengl-7.0-r2::gentoo
+# required by games-util/steam-client-meta-0-r20221017::steam-overlay
+# required by games-util/steam-meta-0-r20220320::steam-overlay
+# required by games-util/steam-meta (argument)
+>=dev-libs/wayland-1.21.0-r1 abi_x86_32
+# required by media-libs/mesa-22.3.7-r1::gentoo
+# required by virtual/opengl-7.0-r2::gentoo
+# required by games-util/steam-client-meta-0-r20221017::steam-overlay
+# required by games-util/steam-meta-0-r20220320::steam-overlay
+# required by games-util/steam-meta (argument)
+>=x11-libs/libdrm-9999 abi_x86_32
+# required by media-libs/mesa-22.3.7-r1::gentoo[X]
+# required by virtual/opengl-7.0-r2::gentoo
+# required by games-util/steam-client-meta-0-r20221017::steam-overlay
+# required by games-util/steam-meta-0-r20220320::steam-overlay
+# required by games-util/steam-meta (argument)
+>=x11-libs/libxshmfence-1.3.2 abi_x86_32
+# required by media-libs/mesa-22.3.7-r1::gentoo[X]
+# required by virtual/opengl-7.0-r2::gentoo
+# required by games-util/steam-client-meta-0-r20221017::steam-overlay
+# required by games-util/steam-meta-0-r20220320::steam-overlay
+# required by games-util/steam-meta (argument)
+>=x11-libs/libXxf86vm-1.1.5 abi_x86_32
+# required by media-libs/mesa-22.3.7-r1::gentoo[X]
+# required by virtual/opengl-7.0-r2::gentoo
+# required by games-util/steam-client-meta-0-r20221017::steam-overlay
+# required by games-util/steam-meta-0-r20220320::steam-overlay
+# required by games-util/steam-meta (argument)
 >=x11-libs/libXfixes-6.0.0 abi_x86_32
->=app-arch/zstd-1.5.2-r3 abi_x86_32
->=sys-devel/llvm-14.0.6-r2:14 abi_x86_32
->=x11-libs/libXrandr-1.5.2 abi_x86_32
->=x11-libs/libXrender-0.9.10-r2 abi_x86_32
+# required by sys-devel/llvm-15.0.7::gentoo[zstd]
+# required by media-libs/mesa-22.3.7-r1::gentoo[-video_cards_radeon,-video_cards_r600,-opencl,llvm,-video_cards_radeonsi]
+# required by virtual/opengl-7.0-r2::gentoo
+# required by games-util/steam-client-meta-0-r20221017::steam-overlay
+# required by games-util/steam-meta-0-r20220320::steam-overlay
+# required by games-util/steam-meta (argument)
+>=app-arch/zstd-1.5.4-r3 abi_x86_32
+# required by media-libs/mesa-22.3.7-r1::gentoo[-video_cards_radeon,-video_cards_r600,-opencl,llvm,-video_cards_radeonsi]
+# required by virtual/opengl-7.0-r2::gentoo
+# required by games-util/steam-client-meta-0-r20221017::steam-overlay
+# required by games-util/steam-meta-0-r20220320::steam-overlay
+# required by games-util/steam-meta (argument)
+>=sys-devel/llvm-15.0.7 abi_x86_32
+# required by media-libs/mesa-22.3.7-r1::gentoo[X]
+# required by virtual/opengl-7.0-r2::gentoo
+# required by games-util/steam-client-meta-0-r20221017::steam-overlay
+# required by games-util/steam-meta-0-r20220320::steam-overlay
+# required by games-util/steam-meta (argument)
+>=x11-libs/libXrandr-1.5.3 abi_x86_32
+# required by x11-libs/libXrandr-1.5.3::gentoo
+# required by media-libs/mesa-22.3.7-r1::gentoo[X]
+# required by virtual/opengl-7.0-r2::gentoo
+# required by games-util/steam-client-meta-0-r20221017::steam-overlay
+# required by games-util/steam-meta-0-r20220320::steam-overlay
+# required by games-util/steam-meta (argument)
+>=x11-libs/libXrender-0.9.11 abi_x86_32
+# required by sys-devel/llvm-15.0.7::gentoo[libffi]
+# required by media-libs/mesa-22.3.7-r1::gentoo[-video_cards_radeon,-video_cards_r600,-opencl,llvm,-video_cards_radeonsi]
+# required by virtual/opengl-7.0-r2::gentoo
+# required by games-util/steam-client-meta-0-r20221017::steam-overlay
+# required by games-util/steam-meta-0-r20220320::steam-overlay
+# required by games-util/steam-meta (argument)
 >=dev-libs/libffi-3.4.4 abi_x86_32
->=sys-libs/ncurses-6.3_p20220423 abi_x86_32
->=dev-libs/libxml2-2.10.3 abi_x86_32
+# required by sys-devel/llvm-15.0.7::gentoo[ncurses]
+# required by media-libs/mesa-22.3.7-r1::gentoo[-video_cards_radeon,-video_cards_r600,-opencl,llvm,-video_cards_radeonsi]
+# required by virtual/opengl-7.0-r2::gentoo
+# required by games-util/steam-client-meta-0-r20221017::steam-overlay
+# required by games-util/steam-meta-0-r20220320::steam-overlay
+# required by games-util/steam-meta (argument)
+>=sys-libs/ncurses-6.3_p20221203-r2 abi_x86_32
+# required by sys-devel/llvm-15.0.7::gentoo[xml]
+# required by media-libs/mesa-22.3.7-r1::gentoo[-video_cards_radeon,-video_cards_r600,-opencl,llvm,-video_cards_radeonsi]
+# required by virtual/opengl-7.0-r2::gentoo
+# required by games-util/steam-client-meta-0-r20221017::steam-overlay
+# required by games-util/steam-meta-0-r20220320::steam-overlay
+# required by games-util/steam-meta (argument)
+>=dev-libs/libxml2-2.10.3-r1 abi_x86_32
+# required by dev-libs/libxml2-2.10.3-r1::gentoo[icu]
+# required by sys-devel/llvm-15.0.7::gentoo[xml]
+# required by media-libs/mesa-22.3.7-r1::gentoo[-video_cards_radeon,-video_cards_r600,-opencl,llvm,-video_cards_radeonsi]
+# required by virtual/opengl-7.0-r2::gentoo
+# required by games-util/steam-client-meta-0-r20221017::steam-overlay
+# required by games-util/steam-meta-0-r20220320::steam-overlay
+# required by games-util/steam-meta (argument)
 >=dev-libs/icu-72.1 abi_x86_32
+# required by dev-libs/libxml2-2.10.3-r1::gentoo[lzma]
+# required by sys-devel/llvm-15.0.7::gentoo[xml]
+# required by media-libs/mesa-22.3.7-r1::gentoo[-video_cards_radeon,-video_cards_r600,-opencl,llvm,-video_cards_radeonsi]
+# required by virtual/opengl-7.0-r2::gentoo
+# required by games-util/steam-client-meta-0-r20221017::steam-overlay
+# required by games-util/steam-meta-0-r20220320::steam-overlay
+# required by games-util/steam-meta (argument)
+>=app-arch/xz-utils-5.4.1 abi_x86_32
+# required by sys-libs/ncurses-6.3_p20221203-r2::gentoo[gpm]
+# required by sys-devel/llvm-15.0.7::gentoo[ncurses]
+# required by media-libs/mesa-22.3.7-r1::gentoo[-video_cards_radeon,-video_cards_r600,-opencl,llvm,-video_cards_radeonsi]
+# required by virtual/opengl-7.0-r2::gentoo
+# required by games-util/steam-client-meta-0-r20221017::steam-overlay
+# required by games-util/steam-meta-0-r20220320::steam-overlay
+# required by games-util/steam-meta (argument)
 >=sys-libs/gpm-1.20.7-r5 abi_x86_32
->=x11-libs/libpciaccess-0.16-r1 abi_x86_32
->=virtual/libelf-3-r1 abi_x86_32
->=dev-libs/elfutils-0.187-r2 abi_x86_32
->=app-arch/bzip2-1.0.8-r3 abi_x86_32
 sys-libs/ncurses -gpm
->=x11-drivers/nvidia-drivers-525.60.13 abi_x86_32
-

@@ -1,0 +1,4 @@
+# required by net-voip/mumble-1.4.287-r1::gentoo
+# required by net-voip/mumble (argument)
+>=media-libs/libsndfile-1.2.0 -minimal
+
