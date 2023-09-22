@@ -8,3 +8,26 @@
 >=sys-fs/lvm2-2.03.19 lvm
 
 media-libs/libsndfile minimal
+
+# required by media-libs/libsdl2-2.26.2::gentoo[pipewire]
+# required by media-sound/mpg123-1.31.3::gentoo[sdl]
+# required by media-libs/libsndfile-1.2.0::gentoo[-minimal]
+# required by media-libs/libpulse-16.1-r2::gentoo
+# required by www-client/firefox-bin-113.0.2::gentoo[pulseaudio]
+# required by @selected
+# required by @world (argument)
+>=media-video/pipewire-0.3.70-r2 abi_x86_32 -ffmpeg
+# required by dev-qt/qtgui-5.15.9::gentoo[X]
+# required by kde-frameworks/kguiaddons-5.104.0::gentoo[wayland]
+# required by kde-frameworks/kconfigwidgets-5.104.0::gentoo
+# required by kde-frameworks/kiconthemes-5.104.0-r1::gentoo
+# required by kde-plasma/polkit-kde-agent-5.27.5-r1::gentoo
+# required by kde-frameworks/kauth-5.104.0::gentoo
+>=x11-libs/libxkbcommon-1.5.0 abi_x86_32
+
+# required by x11-libs/wxGTK-3.2.2.1-r2::gentoo
+# required by net-ftp/filezilla-3.64.0::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-libs/libpcre2-10.42-r1 pcre32
+

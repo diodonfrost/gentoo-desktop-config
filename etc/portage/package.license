@@ -5,3 +5,5 @@ games-util/steam-launcher ValveSteamLicense
 x11-drivers/nvidia-drivers NVIDIA-r2
 net-misc/dropbox CC-BY-ND-3.0 dropbox
 app-editors/vscode Microsoft-vscode
+net-im/zoom all-rights-reserved
+

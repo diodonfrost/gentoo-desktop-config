@@ -174,3 +174,5 @@
 # required by games-util/steam-meta (argument)
 >=sys-libs/gpm-1.20.7-r5 abi_x86_32
 sys-libs/ncurses -gpm
+>=sys-libs/libudev-compat-186-r1 abi_x86_32
+

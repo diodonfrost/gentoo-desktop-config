@@ -1,0 +1,4 @@
+# required by app-admin/mongosh-bin-1.3.1::gentoo
+# required by app-admin/mongosh-bin (argument)
+>=dev-libs/cyrus-sasl-2.1.28-r4 kerberos
+
